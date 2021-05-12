@@ -18,25 +18,7 @@ body {
   align-items: center;
   overflow: hidden;
 }
-/* width */
-::-webkit-scrollbar {
-  width: 3px;
-}
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #fd1892; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
-}
 
 .center-container {
   margin-top: 150px;

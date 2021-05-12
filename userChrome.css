@@ -1,0 +1,30 @@
+.extensionPage{
+  display: none;
+}
+
+#TabsToolbar{
+  background-color: #1c1b22;
+}
+
+.tabbrowser-tab[selected="true"] .tab-background {
+  border:2px solid transparent !important;
+  border-image: linear-gradient(to bottom right, #fc2727 0%, #b02cfc 25%, #33b3fd 50%, #fec837 75%, #fd1892 100%) !important;
+  border-image-slice: 1 !important;
+  border-radius: 1px !important;
+}
+
+.tabbrowser-tab .tab-background {
+  background: #1c1b22 none !important;
+
+}
+
+
+.titlebar-min , .titlebar-close ,.titlebar-min ,.titlebar-max, .titlebar-restore {
+  color: #ff004c;
+}
+.toolbarbutton-icon{
+  fill: #ff004c;
+}
+.close-icon{
+  fill: #ff004c !important;;
+}
