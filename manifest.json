@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Thanh Quan",
+  "version": "1.2",
+  "description": "",
+  "chrome_url_overrides": {
+    "newtab": "./newtab/newtab.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "update_url": "https://example.com/updates.json"
+    }
+  },
+  "chrome_settings_overrides": {
+    "homepage": "./newtab/newtab.html"
+  }
+}

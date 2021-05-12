@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Shade");
+
+:root {
+  --Vanilla: #d4c1af;
+  --SanJuan: #38556d;
+  --Scorpion: #716262;
+  --PineCone: #735e50;
+  --DeepBlue: #1c1b22;
+  --test: #193741;
+}
+
+body {
+  background-color: #1c1b22;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  overflow: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fd1892; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.center-container {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+}
+.center-container > #hours,
+#min {
+  color: #99012f;
+  text-align: center;
+  margin: 0;
+  font-family: "Bungee Shade", cursive;
+  font-size: 6rem;
+}
+
+.center-container > img {
+  margin: -25px auto;
+  width: 200px;
+  height: 250px;
+}
+
+.links-container {
+  min-height: 200px;
+  background-color: transparent;
+  margin-top: 2rem;
+  padding: 0 2rem;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #e90909 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.links-group-container {
+  display: flex;
+}
+.links-group-container > div {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ff004c;
+  border-radius: 5px;
+  min-width: 175px;
+  margin: 1rem;
+  overflow: hidden;
+}
+.links-group-title {
+  text-align: center;
+  border-bottom: 1px solid #ff004c;
+  background-color: #dfdcdc;
+}
+.links-group-title > h3 {
+  color: #d4c1af;
+  margin: 0.5rem 0;
+  color: #1a2125;
+}
+.links-group-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ff004c;
+  font-size: 1.1rem;
+}
+
+#pacman {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+
+  flex-basis: 50%;
+}
